@@ -5,6 +5,7 @@ function addNewWEExperince() {
 
     //add boostrap class
     newElement.classList.add("form-control");
+    newElement.classList.add("wefield");
 
     // add New Atribute
     newElement.setAttribute("placeholder", "Enter here");
@@ -21,10 +22,12 @@ function addNewWEExperince() {
 }
 
 // remove elements
-
-function removeElement() {
+function workExperince() {
     let workExperince = document.getElementById("workExperince");
     workExperince.removeChild(document.getElementById("remove"));
+
+    let weT = document.getElementById("weT");
+    weT.removeChild(document.getElementById("removewe"));
 }
 
 //Create new Element for qualification
@@ -34,6 +37,7 @@ function addNewQualication() {
 
     //add boostrap class
     addNewQualication1.classList.add("form-control");
+    addNewQualication1.classList.add("aqfield");
 
     // when you want to apend the new element
     let Academicqualification = document.getElementById("Academicqualification");
@@ -52,8 +56,14 @@ function addNewQualication() {
 
 }
 
-function removeExperince()
-{
+function removequalification() {
+ 
     let Academicqualification = document.getElementById("Academicqualification");
     Academicqualification.removeChild(document.getElementById("removequalification"));
+
+    let weT = document.getElementById("aqT");
+    weT.removeChild(document.getElementById("removwaq"));
+    
+
+
 }

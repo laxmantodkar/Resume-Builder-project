@@ -1,4 +1,14 @@
-#ResumeGenerator{
-text-align: center;
-margin-top: 10px;
+#cv-form{
+    background-color: grey;
+}
+#image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#as{
+    background-color: aqua;
+}
+#cvtemplete{
+   display: none; 
 }
