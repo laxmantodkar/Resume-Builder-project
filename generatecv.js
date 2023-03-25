@@ -51,6 +51,15 @@ function generatecv() {
          document.getElementById("aqT").appendChild(academic);
 }
 
+//for image Field
+
+let image=document.getElementById("imagefield").files[0];
+let reader=new FileReader();
+reader.readAsDataURL(image);
+reader.onloadend=function()
+{
+  document.getElementById("image").setAttribute("src" , reader.result); 
+}
 
 
 // show the cv templete
